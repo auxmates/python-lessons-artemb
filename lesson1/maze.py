@@ -1,6 +1,6 @@
 from lesson1.mazelib import MazeTurtle
 
-turtle = MazeTurtle(maze=0)
+turtle = MazeTurtle(maze=2)
 
 # Вставляйте свой код между двумя горизонтальными линиями
 #
@@ -13,10 +13,15 @@ turtle = MazeTurtle(maze=0)
 # ------------------------
 
 
+
+turtle.step_down()
+turtle.step_down()
+turtle.step_right()
+turtle.step_right()
+turtle.step_right()
 turtle.step_right()
 turtle.step_down()
-turtle.step_left()
-turtle.step_up()
+turtle.step_down()
 
 
 # -------------------------
